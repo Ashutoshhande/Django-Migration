@@ -7,6 +7,7 @@ class Migration(migrations.Migration):
     dependencies = [
         ("restaurant", "0001_initial"),
     ]
+    
 
     operations = [
         migrations.AddField(
