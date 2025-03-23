@@ -10,6 +10,7 @@ class Migration(migrations.Migration):
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
         ("restaurant", "0002_booking_table"),
     ]
+    
 
     operations = [
         migrations.RemoveField(
