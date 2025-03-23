@@ -9,6 +9,7 @@ class Migration(migrations.Migration):
         ('restaurant', '0005_menuitem_description'),
     ]
 
+    
     operations = [
         migrations.RenameField(
             model_name='menuitem',
