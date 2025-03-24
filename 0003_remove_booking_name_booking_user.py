@@ -11,6 +11,7 @@ class Migration(migrations.Migration):
         ("restaurant", "0002_booking_table"),
     ]
 
+    
     operations = [
         migrations.RemoveField(
             model_name="booking",
